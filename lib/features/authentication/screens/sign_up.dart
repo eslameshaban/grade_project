@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_one/features/authentication/screens/register_screen.dart';
+import 'package:test_one/features/authentication/screens/sign_in.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
