@@ -109,11 +109,6 @@ class _LoginScreenState extends State<LoginScreen> {
                               : Icon(Icons.visibility),
                           onPressed: () {
                             setState(() {
-                              // if (isObscure == true) {
-                              //   isObscure = false;
-                              // } else {
-                              //   isObscure = true;
-                              // }
                               isObscure = !isObscure;
                             });
                           },
