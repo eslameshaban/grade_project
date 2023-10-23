@@ -27,10 +27,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   SizedBox(height: 70),
 
                   //image
-                  Image.asset(
-                    'assets/images/LOGO1.png',
-                    height: 70,
-                  ),
+
                   const SizedBox(
                     height: 60,
                   ),
