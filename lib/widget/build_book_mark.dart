@@ -8,8 +8,8 @@ class BookMarkWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 154,
-      width: 360,
+      height: 130,
+      width: 20,
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(
