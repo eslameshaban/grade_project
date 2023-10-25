@@ -8,7 +8,7 @@ class BookMarkWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 130,
+      height: 154,
       width: 360,
       decoration: BoxDecoration(
         color: Colors.white,
@@ -33,8 +33,7 @@ class BookMarkWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
-                  mainAxisAlignment:
-                  MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
                       width: 88,
@@ -48,6 +47,7 @@ class BookMarkWidget extends StatelessWidget {
                         ),
                       ),
                     ),
+                    const SizedBox(width: 90),
                     Icon(
                       Icons.bookmark,
                       color: Color(0xff167F71),
